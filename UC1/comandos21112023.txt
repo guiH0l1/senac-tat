@@ -1,0 +1,28 @@
+   19  sudo apt update
+   20  sudo apt install brave-browser
+   21  history
+   22  exit
+   23  history
+   24  cd Documentos/SENAC/tat/
+   25  ls-lh
+   26  ls -lh
+   27  cat
+   28  cat senac.txt 
+   29  cat -n senac.txt 
+   30  echo Técnico em Informática
+   31  echo Técnico em Informática >> senac.txt 
+   32  ls -lh
+   33  cat -n senac.txt 
+   34  cat -n /etc/services 
+   35  head
+   36  head /etc/services 
+   37  head -n20 /etc/services 
+   38  cat -n /etc/services | head -n20
+   39  tail /etc/services
+   40* 
+   41  cat -n /etc/services | tail -n20
+   42  cat -n /etc/services | head -n200 | tail n-100
+   43  cat -n /etc/services | head -n200 | tail n-101
+   44  cat -n /etc/services | head -n200| tail n-101
+   45  cat -n /etc/services | head -n200| tail -n101
+   46  history
