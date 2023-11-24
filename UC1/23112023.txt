@@ -1,0 +1,155 @@
+48  sudo apt update
+   49  sudo apt upgrade
+   50  sudo apt full-upgrade
+   51  sudo apt dist-upgrade
+   52  sudo apt autoremove
+   53  sudo apt autoclean
+   54  ls
+   55  cd Documentos/
+   56  ls
+   57  rm -Rfv */
+   58  ls
+   59  mkdir SENAC
+   60  LS
+   61  ls
+   62  cd SENAC
+   63  mkdir tat/bra/pen
+   64  mkdir tat/ bra/ pen/
+   65  ls
+   66  cd tat
+   67  mkdir tei.txt
+   68  ls
+   69  cd SENAC
+   70  cd ..
+   71  cd bra
+   72  mkdir tst.txt
+   73  ls
+   74  cd ..
+   75  cd tat
+   76  cd ..
+   77  cd tat
+   78  ls
+   79  cd ..
+   80  cd pen
+   81  mkdir tae.txt
+   82  ls
+   83  cd ..
+   84  cd tat
+   85  ls
+   86  cd ..
+   87  cd bra
+   88  ls
+   89  cd ..
+   90  cd pen
+   91  ls
+   92  cd ..
+   93  mkdir SESC
+   94  ls
+   95  cd SESC
+   96  mkdir bel/ san/ ita/
+   97  ls
+   98  cd bel
+   99  mkdir artes.txt
+  100  ls
+  101  cd ..
+  102  cd san
+  103  mkdir leitura
+  104  ls
+  105  cd ..
+  106  cd ita
+  107  ls
+  108  mkdir musica.txt
+  109  ls
+  110  cd ..
+  111  ls
+  112  cd ..
+  113  cd SENAC
+  114  ls
+  115  cd tat
+  116  touch tei.txt
+  117  ls
+  118  cd ..
+  119  cd bra
+  120  touch tst.txt
+  121  ls
+  122  cd ..
+  123  cd pen
+  124  touch tae.txt
+  125  ls
+  126  cd ..
+  127  cd SENAC
+  128  cd ..
+  129  cd SESC
+  130  ls
+  131  cd bel
+  132  touch artes.txt
+  133  ls
+  134  cd ..
+  135  cd san/
+  136  touch leitura.txt
+  137  ls
+  138  cd ..
+  139  cd ita
+  140  touch musica.txt
+  141  ls
+  142  cd ..
+  143  ls
+  144  mkdir SENAI
+  145  ls
+  146  cd SENAI
+  147  mkdir bra/ cor/ gua/
+  148  ls
+  149  cd bra
+  150  touch fresa.txt
+  151  ls
+  152  cd ..
+  153  cd cor
+  154  touch torno.txt
+  155  ls
+  156  cd ..
+  157  cd gua
+  158  touch solda.txt
+  159  ls
+  160  cd ..
+  161  ls
+  162  mkdir SESI
+  163  cd SESI
+  164  MKDIR bel/ car/ bra/
+  165  mkdir bel/ car/ bra/
+  166  ls
+  167  cd bel
+  168  touch fund1.txt
+  169  ls
+  170  cd ..
+  171  cd car
+  172  touch fund2.txt
+  173  ls
+  174  cd ..
+  175  cd bra
+  176  touch tec.txt
+  177  ls
+  178  cd ..
+  179  ls
+  180  touch senac.txt
+  181  ls
+  182  cp -v senac.txt senai.txt
+  183  ls
+  184  cp -v senai.txt seci.txt
+  185  ls
+  186  mv -v seci.txt sesi.txt
+  187  ls
+  188  mv -v senac.txt senai.txt sesi.txt Documentos/
+  189  ls
+  190  cd Documentos/
+  191  ls
+  192  touch ..SESC/sesc.txt 
+  193  history
+  194  touch sesc.txt
+  195  ls
+  196  mv -v senac.txt SENAI/
+  197  mv -v sesc.txt SESC/
+  198  mv -v senai.txt SENAI/
+  199  LS
+  200  ls
+  201  mv -v sesi.txt SESI/
+  202  ls
