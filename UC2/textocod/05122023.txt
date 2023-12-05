@@ -1,0 +1,30 @@
+  213  ls
+  214  cd Vídeos/
+  215  mkdir -v SENAC
+  216  cd SENAC/
+  217  vim
+  218  vim senac.txt
+  219  vim senai.md
+  220  vim sesc.bat
+  221  vim sesi.exe
+  222  sebrae.png
+  223  vim sebrae.png
+  224  ls
+  225  vim
+  226  ls
+  227  vim
+  228  vim /etc/services
+  229  vim /etc/services +112
+  230  vim tabnew /etc/services 
+  231  vim tabnew /etc/services /etc/hostname 
+  232  vim -0 tabnew /etc/services /etc/hostname 
+  233  vim -o tabnew /etc/services /etc/hostname  /
+  234  vim -0 tabnew /etc/services /etc/hostname /etc/crontab /etc/wgetrc 
+  235  vim -o tabnew /etc/services /etc/hostname /etc/crontab /etc/wgetrc 
+  236  vim
+  237  exit
+  238  sudo apt install git vim
+  239  git clone https://github.com/guiH0l1/senac-tat~
+  240  git clone https://github.com/guiH0l1/senac-tat
+  241  ls
+
