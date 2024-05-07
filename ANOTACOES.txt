@@ -1,0 +1,89 @@
+ANOTAÇÕES
+
+Router>ena
+Router#conf t
+Router(config)#hostname SP
+SP(config)#int f0/0
+SP(config-if)#desc Porta LAN de SP
+SP(config-if)#ip add 192.168.10.1 255.255.255.0
+SP(config-if)#no shut
+SP(config-if)#exit
+SP(config)#int s0/0
+SP(config-if)#desc PORTA WAN que LIGA SP ao RJ
+SP(config-if)#ip add 20.0.0.1 255.255.255.0
+SP(config-if)#no shut
+SP(config-if)#clock rate 128000
+SP(config-if)#band 128
+SP(config-if)#exit
+SP(config)#router rip
+SP(config-router)#net 192.168.10.0
+SP(config-router)#net 20.0.0.0
+SP(config-router)# "Ctrl+Z" ou end
+SP#sh run
+SP#copy run star
+SP#
+ 
+SP#reload
+ 
+ 
+ 
+SP(config)# line con 0
+SP(config-line)#password SENHA
+SP(config-line)#login
+ 
+SP(config)# enable secret SENHA
+SP(config)# enable password SENHA
+Última lida
+Hoje
+Router>ena Router#conf t Router(config)... por ALEX SANTOS LIMA
+ALEX SANTOS LIMA
+19:54
+Router>ena
+Router#conf t
+Router(config)#hostname SP
+SP(config)#int f0/0
+SP(config-if)#desc Porta LAN de SP
+SP(config-if)#ip add 192.168.10.1 255.255.255.0
+SP(config-if)#no shut
+SP(config-if)#exit
+SP(config)#int s0/0
+SP(config-if)#desc PORTA WAN que LIGA SP ao RJ
+SP(config-if)#ip add 20.0.0.1 255.255.255.0
+SP(config-if)#no shut
+SP(config-if)#clock rate 128000
+SP(config-if)#band 128
+SP(config-if)#exit
+SP(config)#router rip
+SP(config-router)#net 192.168.10.0
+SP(config-router)#net 20.0.0.0
+SP(config-router)# "Ctrl+Z" ou end
+SP#sh run
+SP#copy run star
+SP#
+ 
+SP#reload
+Router>ena Router#conf t Router(config)... por ALEX SANTOS LIMA
+ALEX SANTOS LIMA
+20:34
+Router>ena
+Router#conf t
+Router(config)#hostname MG
+MG(config)#int f0/0
+MG(config-if)#desc Porta LAN de MG
+MG(config-if)#ip add 192.168.30.1 255.255.255.0
+MG(config-if)#no shut
+MG(config-if)#exit
+MG(config)#int s0/1
+MG(config-if)#desc PORTA WAN que LIGA MG ao RJ
+MG(config-if)#ip add 30.0.0.2 255.255.255.0
+MG(config-if)#no shut
+MG(config-if)#exit
+MG(config)#router rip
+MG(config-router)#net 192.168.30.0
+MG(config-router)#net 30.0.0.0
+MG(config-router)# "Ctrl+Z" ou end
+MG#sh run
+MG#copy run star
+MG#
+ 
+MG#reload
